@@ -14,8 +14,11 @@
 相关API:
 
 用户列表: `https://api.github.com/users`;
+
 用户仓库列表: `https://api.github.com/users/{user}/repos`;
+
 用户详细信息: `https://api.github.com/users/{user}`;
+
 跟随者列表: `https://api.github.com/users/{user}/followers`.
 
 附加说明:
