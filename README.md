@@ -11,10 +11,12 @@
 5. 所有列表视图支持下来刷新数据, 刷新后会自动更新列表视图中的数据;
 6. 请注意处理网络请求或数据处理过程中的错误.
 
-用户列表API: `https://api.github.com/users`
-用户仓库列表API: `https://api.github.com/users/{user}/repos`
-用户详细信息API: `https://api.github.com/users/{user}`
-跟随者列表API: `https://api.github.com/users/{user}/followers`
+相关API:
+
+用户列表: `https://api.github.com/users`;
+用户仓库列表: `https://api.github.com/users/{user}/repos`;
+用户详细信息: `https://api.github.com/users/{user}`;
+跟随者列表: `https://api.github.com/users/{user}/followers`.
 
 附加说明:
 
@@ -33,4 +35,4 @@
 
 1. 找出应用中的内存泄漏并修复;
 2. 找出应用中的性能问题并优化;
-3. 找出应用中的缺陷并修复;
+3. 找出应用中的缺陷并修复.
